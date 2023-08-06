@@ -86,5 +86,69 @@ export const data=[
             }
         ]
     },
+    {
+        id:6,
+        name: 'Fideline',
+        messages: [
+            {
+                text: 'Well, talk to you later!',
+                date: '19:45 PM'
+            }
+        ],
+        image: require('../assets/images/fideline.png'),
+        hasNewMessages:[
+            {
+                number: 2,
+            }
+        ]
+    },
+    {
+        id:6,
+        name: 'Fideline',
+        messages: [
+            {
+                text: 'Well, talk to you later!',
+                date: '19:45 PM'
+            }
+        ],
+        image: require('../assets/images/fideline.png'),
+        hasNewMessages:[
+            {
+                number: 2,
+            }
+        ]
+    },
+    {
+        id:6,
+        name: 'Fideline',
+        messages: [
+            {
+                text: 'Well, talk to you later!',
+                date: '19:45 PM'
+            }
+        ],
+        image: require('../assets/images/fideline.png'),
+        hasNewMessages:[
+            {
+                number: 2,
+            }
+        ]
+    },
+    {
+        id:6,
+        name: 'Fideline',
+        messages: [
+            {
+                text: 'Well, talk to you later!',
+                date: '19:45 PM'
+            }
+        ],
+        image: require('../assets/images/fideline.png'),
+        hasNewMessages:[
+            {
+                number: 2,
+            }
+        ]
+    },
      
 ]

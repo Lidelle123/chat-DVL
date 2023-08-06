@@ -7,8 +7,6 @@ import Discussions from './Discussions';
 const Favorites = () => {
     return(
         <>
-
-
             <View style={favoriteStyle.container}>
                 <View style={favoriteStyle.header} >
                     <Text style={{ color:'white', fontWeight: 'bold', marginLeft:0  }}>Favorites Contacts</Text>
@@ -16,7 +14,7 @@ const Favorites = () => {
                         <Ionicons name='menu-outline' style={{ color:'white', fontWeight: 'bold',marginRight:20 }}></Ionicons>
                     </TouchableOpacity>
                 </View>
-                <ScrollView horizontal>
+                <ScrollView horizontal >
                     {data && data.map((item, index) => (
                     <View key={index} style={favoriteStyle.itemContainer}>
                         <View style={favoriteStyle.imageContainer}>

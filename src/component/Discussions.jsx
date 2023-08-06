@@ -6,7 +6,7 @@ const Discussions = () => {
     return(
         <View style={discussionStyle.container}>
             <View style={{ marginTop:10, width:Dimensions.get("window").width,}}>
-                <ScrollView >
+                <ScrollView style={{flex:0, height:400, marginBottom:100 }}>
                     {data && data.map((item, index) => (
                         <View key={index}>
                                 <View style={discussionStyle.itemContainer}>
